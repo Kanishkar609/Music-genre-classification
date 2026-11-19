@@ -1,0 +1,8 @@
+data/
+cache/
+__pycache__/
+*.pyc
+.venv/
+.streamlit/
+app_err.log
+app_out.log

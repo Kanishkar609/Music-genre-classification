@@ -1,0 +1,103 @@
+[
+  {
+    "name": "cnn_resnet",
+    "test_acc": 0.86,
+    "test_f1": 0.8596199742523272,
+    "segment_acc": 0.7913333333333333,
+    "kind": "cnn"
+  },
+  {
+    "name": "ensemble_weighted",
+    "test_acc": 0.86,
+    "test_f1": 0.8552082352204711,
+    "segment_acc": null,
+    "kind": "ensemble",
+    "members": 4,
+    "weights": {
+      "cnn_deep": 0.245,
+      "cnn_vgg": 0.254,
+      "cnn_resnet": 0.253,
+      "classic_svm": 0.248
+    }
+  },
+  {
+    "name": "cnn_vgg",
+    "test_acc": 0.8466666666666667,
+    "test_f1": 0.8412002358453972,
+    "segment_acc": 0.7873333333333333,
+    "kind": "cnn"
+  },
+  {
+    "name": "ensemble_all",
+    "test_acc": 0.8333333333333334,
+    "test_f1": 0.8254522843620208,
+    "segment_acc": null,
+    "kind": "ensemble",
+    "members": 9
+  },
+  {
+    "name": "cnn_deep",
+    "test_acc": 0.8133333333333334,
+    "test_f1": 0.8013831091250445,
+    "segment_acc": 0.7413333333333333,
+    "kind": "cnn"
+  },
+  {
+    "name": "ensemble_cnn6",
+    "test_acc": 0.8066666666666666,
+    "test_f1": 0.7926050511439505,
+    "segment_acc": null,
+    "kind": "ensemble",
+    "members": 6
+  },
+  {
+    "name": "ensemble_classic3",
+    "test_acc": 0.7666666666666667,
+    "test_f1": 0.7633127903089953,
+    "segment_acc": null,
+    "kind": "ensemble",
+    "members": 3
+  },
+  {
+    "name": "classic_svm",
+    "test_acc": 0.7533333333333333,
+    "test_f1": 0.7439518689196107,
+    "segment_acc": null,
+    "kind": "classic"
+  },
+  {
+    "name": "classic_hist_gb",
+    "test_acc": 0.7533333333333333,
+    "test_f1": 0.7542634881803403,
+    "segment_acc": null,
+    "kind": "classic"
+  },
+  {
+    "name": "cnn_baseline",
+    "test_acc": 0.7333333333333333,
+    "test_f1": 0.7151805410426101,
+    "segment_acc": 0.644,
+    "kind": "cnn"
+  },
+  {
+    "name": "classic_random_forest",
+    "test_acc": 0.7066666666666667,
+    "test_f1": 0.6969214414617642,
+    "segment_acc": null,
+    "kind": "classic"
+  },
+  {
+    "name": "cnn_attention",
+    "test_acc": 0.68,
+    "test_f1": 0.6637934123771222,
+    "segment_acc": 0.6326666666666667,
+    "kind": "cnn"
+  },
+  {
+    "name": "cnn_separable",
+    "test_acc": 0.6533333333333333,
+    "test_f1": 0.6330479463534243,
+    "segment_acc": 0.592,
+    "kind": "cnn"
+  }
+]
